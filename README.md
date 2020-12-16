@@ -6,9 +6,9 @@
 
 ## To build the image
 ```
-docker build -t Final-Project-main
+docker build -t final-project-main .
 ```
 ## To run the health questionnaire  
 ```
-docker run -it Final-Project-main code2.py
+docker run -it final-project-main code2.py
 ```
