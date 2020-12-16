@@ -2,6 +2,7 @@
 ### Contents
   * dockerfile
   * python script
+  * after successful execution : a server text file will be completed. 
 
 ## To build the image
 ```
