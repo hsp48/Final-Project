@@ -5,4 +5,4 @@
 docker build -t Final-Project-main
 ```
 ## To run the health questionnaire  
-```<docker run -it Final-Project-main>```
+```docker run -it Final-Project-main code2.py ```
