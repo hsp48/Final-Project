@@ -70,7 +70,7 @@ server.append(PatientOxygen)
 PatientNotes = input("Enter any Notes: ")
 server.append(PatientNotes)
 
-createservertext = open("servernotes.txt", "a+")
+createservertext = open("servernotes.txt", "w+")
 for line in server:
     w = ('\t'.join(line))
     createservertext.write(w)
