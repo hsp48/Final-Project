@@ -1,9 +1,9 @@
 # Final-Project
--Contents
+### Contents
   * dockerfile
   * python script
 
-## To build the image run the command 
+## To build the image
 ```
 docker build -t Final-Project-main
 ```
