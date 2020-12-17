@@ -71,8 +71,7 @@ PatientNotes = input("Enter any Notes: ")
 server.append(PatientNotes)
 
 createservertext = open("servernotes.txt", "w+")
-for line in server:
-    w = ('\t'.join(line))
-    createservertext.write(w)
+w = (','.join(server))
+for line in w:
+    createservertext.write(line)
 print(server)
-
